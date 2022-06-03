@@ -26,11 +26,13 @@ section.alternate-background {
 main img {
   width: 100%;
 }
+
 /* ---  Groups & Items --- */
 .group {
   display: flex;
   flex-direction: column;
 }
+
 .item {
   flex: 1;
   margin: 10px;
@@ -38,6 +40,7 @@ main img {
 .item-double {
   flex: 2;
 }
+
 /* -------  Navigation ------- */
 header {
   background-color: #FF385C;
@@ -78,12 +81,14 @@ form {
 form label {
   font-weight: bold;
 }
+
 form div {
   display: flex;
+  /* natually turned to row */
   justify-content: space-between;
 }
 form select, form input {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   width: 180px;
 }
 form button {
